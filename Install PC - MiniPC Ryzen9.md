@@ -45,6 +45,7 @@
 - 📺 [VLC Player](https://www.videolan.org)
 - ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
 - 📚 [Kindle](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
+- 💬 [WhatsApp](https://www.whatsapp.com/features)
 - 🌐 Browsers
   - [Brave](https://brave.com/)
   - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
@@ -127,11 +128,35 @@
   - Configuração de iluminação e enquadramento
   - Perfis de streaming
 
-
+---
 ## 🔊 Áudio
-- [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
-- Arquivos em: `S:\Softwares\Audio\Equalizador`
 
+### 🎛️ Equalizador
+- [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
+  - Arquivos de configuração: `S:\Softwares\Audio\Equalizador`
+  - [Guia de instalação](https://sourceforge.net/projects/equalizerapo/)
+
+### 🎧 Configurações Bluetooth
+- Desativar modo "Hands Free" para melhor qualidade de áudio:
+  1. Painel de Controle > Hardware e Sons > Dispositivos e Impressoras
+  2. Clique com o botão direito no dispositivo de áudio
+  3. Selecione "Serviços"
+  4. Desmarque "Áudio Hands Free"
+- Referências:
+  - [Fórum Microsoft - Fix for Bluetooth Headphones](https://answers.microsoft.com/en-us/windows/forum/all/fix-for-bluetooth-headphones-or-speaker-using/7023c43b-c001-42e9-9ec9-95a8f96a4b4c)
+  - [Guia para melhorar qualidade de áudio Bluetooth](https://visser.io/2013/09/fix-for-poor-a2dp-quality-for-bluetooth-headphones-under-windows-8/)
+
+### 🎙️ Dispositivos de Áudio
+- Configurações de microfone em:
+  - Painel de Controle > Som > Gravação
+  - Configurar níveis e melhorias
+
+### 🔉 Solução de Problemas
+- Verificar drivers de áudio no Gerenciador de Dispositivos
+- Reiniciar Serviço de Áudio do Windows
+  - `services.msc` > Windows Audio > Reiniciar
+- [Atualizar drivers de áudio](https://www.realtek.com/en/component/zoo/category/pc-audio-codecs-high-definition-audio-codecs-software)
+---
 ## 🖨️ Impressora Epson L3250
 - **Windows 11**  
   [Download](https://epson.com.br/Suporte/Impressoras/Impressoras-multifuncionais/Epson-L/Epson-L3250/s/SPT_C11CJ67301?review-filter=Windows+11)
@@ -169,7 +194,7 @@
 - [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
 - [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
 
-## ⚙️ Configurações Avançadas
+## ⚙️ Configurações 
 ### 🖥️ Barra de Tarefas - Múltiplos Monitores
 - Configurar janelas individuais:
   1. Clique com o botão direito na barra de tarefas
@@ -187,44 +212,16 @@
     - `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
     - `C:\Users\alvar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
-### 🖥️ Monitor
-- [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
-
-### 💬 WhatsApp Desktop
-- [Download](https://www.whatsapp.com/features)
-
-### 🔄 VMware
-- Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
-- Atualizar para a versão 15.5.7
-
 ## ⚙️ Serviços
 - Desativar serviços desnecessários em `services.msc`
 - Desativar todos os serviços de VM não utilizados
 
-## 🖨️ Configurações de Impressão
-- Configurar impressão em preto e branco:
-  - Impressoras → Configurações → Preferências de Impressão
-
-## 🔊 Configurações de Áudio Bluetooth
-- Desativar modo "Hands Free"
-  - Painel de Controle\Hardware e Sons\Dispositivos e Impressoras
-  - Selecionar dispositivo → Serviços
-  - Referências:
-    - [Fórum Microsoft](https://answers.microsoft.com/en-us/windows/forum/all/fix-for-bluetooth-headphones-or-speaker-using/7023c43b-c001-42e9-9ec9-95a8f96a4b4c)
-    - [Guia de solução](https://visser.io/2013/09/fix-for-poor-a2dp-quality-for-bluetooth-headphones-under-windows-8/)
-
-� Drivers e Softwares Adicionais
-- Impressora Epson L3250: `S:\Softwares\Impressoras\Epson\L3250`
+## Planos de Energia
 - Planos de Energia: `S:\Softwares\Planos de Energia`
 
 
-
 ## 📌 Pendências
-### 🎥 Vídeos e Gravações
-- Configurar diretório: `R:\Videos - Gravações`
-  - Deletar arquivos desnecessários do notebook
-  - Ajustar backup do notebook
-
-### 💻 Notebook
+### 💻 Notebook Pendências
 - Atualizar backups do SyncBack
 - Exportar configurações do MiniPC e importar no notebook
+- Deletar arquivos desnecessários do notebook
