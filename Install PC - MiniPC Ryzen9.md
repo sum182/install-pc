@@ -1,7 +1,8 @@
 # 🖥️ MiniPC Ryzen9
 
+---
 ## ⚙️ Configurações Iniciais
-- Validar Windows
+- Ativar Windows
 - Windows Update
 
 ## 🌍 Chrome
@@ -14,29 +15,32 @@
 - Na pasta de inicialização, crie um novo atalho
 - Cole o caminho:  
    `"C:\Program Files\Sublime Text\sublime_text.exe"`
----
 
 ## 🪟 Tema
 - Deixar o tema escuro (Iniciar → Temas)
 
-## 📶 WiFi e Bluetooth
-- Drivers Intel Wi-Fi 6E AX210
-  - Local: `S:\Softwares\MiniPC\S500\drivers\Intel - Wi-Fi 6E AX210`
-  - [Download](https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html)
-
-## 🛡️ Segurança
-- [Kaspersky](https://my.kaspersky.com/)
-
-## 🔴 AMD
-- Baixar atualizações de detecção automática para Radeon™ e Ryzen™
-  - [Download](https://www.amd.com/en/support)
-
 ## 📂 Diretório de Usuários
-- Configurar diretório de arquivos do usuário, exemplo D:\Users 
+- Configurar diretório de arquivos do usuário, exemplo D:\Users
 - Erros na alteração
   - [Falha na operação para alterar a localização de uma pasta pessoal no Windows](https://support.microsoft.com/pt-br/topic/falha-de-operação-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720)
     - Alterar as chaves HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
     - Rodar registro: `S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg`
+
+---
+
+## 🖥️ Drivers e Segurança
+
+### 📶 WiFi e Bluetooth
+- Drivers Intel Wi-Fi 6E AX210
+  - Local: `S:\Softwares\MiniPC\S500\drivers\Intel - Wi-Fi 6E AX210`
+  - [Download](https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html)
+
+### 🛡️ Segurança
+- [Kaspersky](https://my.kaspersky.com/)
+
+### 🔴 AMD
+- Baixar atualizações de detecção automática para Radeon™ e Ryzen™
+  - [Download](https://www.amd.com/en/support)
 ---
 
 ## 🗜️ Aplicativos 
@@ -53,33 +57,17 @@
 - 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
 - Personal Finances
 
-## 📦 Aplicativos Opcionais
-- 💽 [EaseUS Partition Master](https://br.easeus.com/partition-manager/partition-master-free.html)
-- 🖥️ [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
-- 🔄 VMware Workstation
-  - Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
-  - Atualizar para a versão 15.5.7
-- 🖥️ [AnyDesk](https://anydesk.com/pt/downloads/windows)
-  - Após instalação, desativar serviço em `services.msc`
 
----
-## ⚡ Inicialização Automática de Aplicativos
-#### Método 1: Pasta de Inicialização (Recomendado)
-1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
-2. Crie atalhos dos programas desejados nesta pasta
-3. Os programas serão iniciados quando o Windows iniciar
+## 📊 Office 365 Family
+### Download e Instalação
+- [Download](https://www.microsoft.com/microsoft-365/buy/compare-all-microsoft-365-products)
+- Faça login com a conta: alv.storage@outlook.com
+- Após a compra/ativação, acesse: [Minha Conta](https://account.microsoft.com/services/)
 
-#### Método 2: Gerenciador de Tarefas
-1. Pressione `Ctrl + Shift + Esc` para abrir o Gerenciador de Tarefas
-2. Vá para a aba "Inicializar"
-3. Clique com o botão direito no programa e selecione "Ativar"
-
-> 💡 Dica: Use o método 1 para programas como Chrome e Sublime Text, e o método 2 para programas que precisam de privilégios de administrador.
-
-
-
-## 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
-  - Conta: alv.storage@outlook.com
+### Ativação
+- O Office deve ativar automaticamente após o login
+- Se necessário, abra qualquer aplicativo do Office > Conta > Entrar
+- Use: alv.storage@outlook.com
 
 ## 🔑 KeePass
 - [Download](https://keepass.info/download.html)
@@ -107,6 +95,47 @@
 - Configurar sincronização de pastas
 
 
+---
+## 📦 Aplicativos Opcionais
+- 💽 [EaseUS Partition Master](https://br.easeus.com/partition-manager/partition-master-free.html)
+- 🖥️ [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
+- 🔄 VMware Workstation
+  - Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
+  - Atualizar para a versão 15.5.7
+- 🖥️ [AnyDesk](https://anydesk.com/pt/downloads/windows)
+  - Após instalação, desativar serviço em `services.msc`
+- 💾 Backup com Imagem
+  - Local: `R:\Backup`
+  - Ferramentas:
+    - EaseUS
+    - Macrium Reflect
+- 📊 Monitoramento
+  - [CPU-Z](https://www.cpuid.com/)
+  - [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
+  - [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
+- ### 💾 Ferramentas de Backup
+  - Local dos backups: `R:\Backup`
+  - [EaseUS Todo Backup](https://www.easeus.com/backup-software/tb-free.html)
+  - [Macrium Reflect Free](https://www.macrium.com/reflectfree)
+- ### 📊 Monitoramento de Hardware
+  - [CPU-Z](https://www.cpuid.com/)
+  - [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
+  - [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
+
+---
+## ⚡ Inicialização Automática de Aplicativos
+#### Método 1: Pasta de Inicialização (Recomendado)
+1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
+2. Crie atalhos dos programas desejados nesta pasta
+3. Os programas serão iniciados quando o Windows iniciar
+
+#### Método 2: Gerenciador de Tarefas
+1. Pressione `Ctrl + Shift + Esc` para abrir o Gerenciador de Tarefas
+2. Vá para a aba "Inicializar"
+3. Clique com o botão direito no programa e selecione "Ativar"
+
+> 💡 Dica: Use o método 2 para programas que precisam de privilégios de administrador.
+---
 ## 🖱️ Logitech
 
 ### 🛠️ Softwares de Gerenciamento
@@ -177,24 +206,8 @@
 
 ---
 
-� Optimização
-- [Otimizar Windows](http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html)
-- Configurar usuário como administrador
-  - [Guia](https://answers.microsoft.com/pt-br/windows/forum/all/colocar-um-usu%C3%A1rio-comum-como-adiministrador/9add7a79-3730-47d4-911c-2320d895850b)
 
-
-## 💾 Backup de Imagem
-- Local: `R:\Backup`
-- Ferramentas:
-  - EaseUS
-  - Macrium Reflect
-
-## 📊 Monitoramento
-- [CPU-Z](https://www.cpuid.com/)
-- [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
-- [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
-
-## ⚙️ Configurações 
+## ⚙️ Configurações
 ### 🖥️ Barra de Tarefas - Múltiplos Monitores
 - Configurar janelas individuais:
   1. Clique com o botão direito na barra de tarefas
@@ -203,25 +216,29 @@
   4. Marque "Mostrar meus botões da barra de tarefas em..."
   5. Selecione "Somente na barra de tarefas onde a janela está aberta"
 
+
+### ⚡ Planos de Energia
+- Local dos perfis: `S:\Softwares\Planos de Energia`
+- Como importar:
+  1. Abra o Painel de Controle > Hardware e Sons > Opções de Energia
+  2. Clique em "Mostrar planos adicionais"
+  3. Selecione o plano desejado ou importe um perfil personalizado
+
+
 ### 🎯 Gadgets
 - [Win10 Widgets](https://win10widgets.com/)
 - [Rainmeter](https://www.rainmeter.net/)
 - [Open Hardware Monitor](https://openhardwaremonitor.org/downloads/)
   - Instalar em: `C:\Program Files\OpenHardwareMonitor`
-  - Adicionar à inicialização do Windows:
-    - `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
-    - `C:\Users\alvar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
-
-## ⚙️ Serviços
-- Desativar serviços desnecessários em `services.msc`
-- Desativar todos os serviços de VM não utilizados
-
-## Planos de Energia
-- Planos de Energia: `S:\Softwares\Planos de Energia`
-
+  - Adicionar à inicialização do Windows
+  
+---
 
 ## 📌 Pendências
 ### 💻 Notebook Pendências
 - Atualizar backups do SyncBack
 - Exportar configurações do MiniPC e importar no notebook
 - Deletar arquivos desnecessários do notebook
+
+
+---
