@@ -1,0 +1,158 @@
+
+****[Dev - Java]********************************************************************************
+**JDK 11
+copiar de S:\Softwares\Java\JDK
+para: C:\Program Files\Java
+
+https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
+https://www.oracle.com/java/technologies/downloads/
+
+**Configurar variaveis de ambiente Java e Maven
+https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26
+
+**Maven
+https://maven.apache.org/download.cgi
+Instalar em C:\Program Files\Apache\apache-maven-3.8.6
+https://maven.apache.org/install.html
+
+
+**VS Code
+https://code.visualstudio.com/docs/?dv=win
+
+**IntelliJ
+https://www.jetbrains.com/pt-br/idea/download/#section=windows
+importar configurações IDE
+S:\Desenvolvimento\IDE\IntelliJ\Configurações IDE
+
+**spring tool suite
+https://spring.io/tools
+fazer download, descompactar e jogar na pasta C:\Program Files\SpringToolSuite
+criar atalho para desktop
+setar diretorio da workspace para D:\Desenvolvimento\Java\Projetos\workspace sts
+
+
+**Discord
+https://discord.com/download
+
+em caso de erros na conexão colocar dns do google na rede (8.8.8.8 e 8.8.4.4)
+https://www.youtube.com/watch?v=7HQTRQ07SOQ
+
+
+**Slack
+https://slack.com/intl/pt-br/downloads/windows
+
+**Commander
+https://cmder.net/
+setar path variavel de ambiente:
+C:\Program Files\cmder
+
+
+**Sublime Text
+https://www.sublimetext.com/3
+
+
+**Postman
+https://www.postman.com/downloads/
+Importar variáveis de ambiente:
+D:\Users\Alvaro\Google Drive\Sync\Trabalho\Diazero\postman
+
+
+**MySQL 
+MySQL WorkBrench
+https://www.mysql.com/products/workbench/
+
+Configurações e importar dumps QA e Local
+D:\Users\Alvaro\Google Drive\Sync\Trabalho\Diazero\BD\mysql
+
+
+**Docker
+https://docs.microsoft.com/pt-br/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+https://www.youtube.com/watch?v=sYsIoWtS5LY&t=3s
+
+https://docs.docker.com/desktop/windows/install/
+
+https://docs.microsoft.com/pt-br/windows/wsl/install
+https://docs.microsoft.com/pt-br/windows/wsl/install-manual
+
+https://docs.microsoft.com/en-us/windows/wsl/install
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+
+Docker Images:
+Keycloak
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:18.0.2 start-dev
+
+Rabbit MQ
+docker run -d -e RABBITMQ_NODENAME=my-rabbit --name rabbitmq -p 8082:15672 -p 61613:61613 -p 5671:5671 -p 5672:5672 -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=rabbit resilva87/docker-rabbitmq-stomp
+
+MySQL
+docker run -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=iniciar -e MYSQL_DATABASE=portal -d mysql:8.0.21 --default-authentication-plugin=mysql_native_password
+
+
+**toggl
+https://toggl.com/track/time-tracking-windows/
+
+
+**HeidSQL
+https://www.heidisql.com/download.php#google_vignette
+
+
+
+
+**Git
+https://git-scm.com/download/win
+
+****Tortoisegit*********
+https://tortoisegit.org/download/
+
+Utilizar as chaves abaixo:
+D:\Users\Alvaro\Google Drive\Sync\Putty Key\Notebook Samsung
+D:\Users\Alvaro\Google Drive\Sync\Putty Key\MiniPC Ryzen9\rsa-key-20230620
+
+
+**Arquivos do GIT
+copiar os arquivos do git de configuração do SSH para a pasta do aplicativo GIT instalado.
+
+Origem:
+D:\Users\Alvaro\Google Drive\Sync\Putty Key\arquivos\git
+
+Destino:
+C:\Program Files\Git\etc\ssh
+
+
+**Arquivos SSH User
+copiar os arquivos de SSH já configurados para a pasta de ssh do usuario
+
+Origem:
+D:\Users\Alvaro\Google Drive\Sync\Putty Key\arquivos\ssh - user\.ssh
+
+Destino:
+C:\Users\alvar\.ssh
+
+**Caso precisar gerar novamente:
+  D:\Users\Alvaro\Google Drive\Sync\Putty Key\MiniPC Ryzen9\Readme.txt
+
+
+
+
+**WinMerge
+https://winmerge.org/
+
+
+**FortClient
+https://www.fortinet.com/support/product-downloads
+
+
+**NodeJs
+https://nodejs.org/pt-br/download/
+
+
+**Movavi
+S:\Softwares\Video\Movavi\Movavi Video Suite 21.2.0
+
+**Vera Code
+baixar o plugin vera code green ligth no intellij
+https://analysiscenter.veracode.com/
+
+configurar as credenciais
+Credentials
+https://docs.veracode.com/r/t_configure_credentials_windows
