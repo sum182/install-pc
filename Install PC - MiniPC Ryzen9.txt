@@ -16,6 +16,10 @@ C:\Program Files\Sublime Text
 criar um novo exec com o nome sublime
 
 
+**Git:
+https://git-scm.com/downloads/win
+https://github.com/apps/desktop
+
 **Wifi
 S:\Softwares\MiniPC\S500\drivers\Intel - Wi-Fi 6E AX210
 https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html
