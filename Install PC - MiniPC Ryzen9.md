@@ -1,114 +1,117 @@
-# 🖥️ MiniPC Ryzen9
+﻿# 🖥️ MiniPC Ryzen9
 
 ## ⚙️ Configurações Iniciais
-- [ ] Validar Windows
-- [ ] Windows Update
-- [ ] Drivers
+- Validar Windows
+- Windows Update
+- Drivers
 
 ## 🪟 Configurações Windows
-- [ ] Deixar o tema escuro (Iniciar → Temas)
+- Deixar o tema escuro (Iniciar → Temas)
 
 ## 📝 Txt
-- [ ] [Sublime Text](https://www.sublimetext.com/)
+- [Sublime Text](https://www.sublimetext.com/)
   - Configurar a variável de ambiente: `C:\Program Files\Sublime Text`
   - Criar um novo exec com o nome `sublime`
 
 ## 📶 WiFi e Bluetooth
-- [ ] Drivers Intel Wi-Fi 6E AX210
+- Drivers Intel Wi-Fi 6E AX210
   - Local: `S:\Softwares\MiniPC\S500\drivers\Intel - Wi-Fi 6E AX210`
   - [Download](https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html)
 
 ## 🛡️ Segurança
-- [ ] [Kaspersky](https://my.kaspersky.com/)
+- [Kaspersky](https://my.kaspersky.com/)
 
 ## 🔴 AMD
-- [ ] Baixar atualizações de detecção automática para Radeon™ e Ryzen™
+- Baixar atualizações de detecção automática para Radeon™ e Ryzen™
   - [Download](https://www.amd.com/en/support)
 
 ## 📂 Diretório de Usuários
-- [ ] Configurar diretório de arquivos do usuário, exemplo D:\Users 
-- [ ] Erros na alteração
+- Configurar diretório de arquivos do usuário, exemplo D:\Users 
+- Erros na alteração
   - [Falha na operação para alterar a localização de uma pasta pessoal no Windows](https://support.microsoft.com/pt-br/topic/falha-de-operação-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720)
+    - Alterar as chaves HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
     - Rodar registro: `S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg`
-
+  
 ## 🗜️ Aplicativos
-- [ ] 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
-- [ ] ⌨️ [Logitech MK540](https://support.logi.com/hc/en-za/articles/360024850313--Downloads-MK540-ADVANCED-Wireless-Keyboard-and-Mouse-Combo)
-- [ ] 📸 [LightShot](https://app.prntscr.com/pt-br/help.html)
-- [ ] 🎬 [BSPlayer](http://bsplayer.com/bsplayer-portuguese/download-free.html)
-- [ ] 📺 [VLC Player](https://www.videolan.org)
-- [ ] ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
-- [ ] 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
+- 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
+- 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
   - Conta: alv.storage@outlook.com
-- [ ] 🌐 [Navegadores](https://www.google.com/chrome/)
+- ⌨️ [Logitech MK540](https://support.logi.com/hc/en-za/articles/360024850313--Downloads-MK540-ADVANCED-Wireless-Keyboard-and-Mouse-Combo)
+- 📸 [LightShot](https://app.prntscr.com/pt-br/help.html)
+- 🎬 [BSPlayer](http://bsplayer.com/bsplayer-portuguese/download-free.html)
+- 📺 [VLC Player](https://www.videolan.org)
+- ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
+- 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
+  - Conta: alv.storage@outlook.com
+- 🌐 [Navegadores](https://www.google.com/chrome/)
   - Firefox
   - Google Chrome
   - WhatsApp Web
-- [ ] 📄 [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html)
-- [ ] 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
-- [ ] Personal Finances
+- 📄 [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html)
+- 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
+- Personal Finances
 
 ## 🔑 KeePass
-- [ ] [Download](https://keepass.info/download.html)
-- [ ] Instalar plugins de `S:\Softwares\Keepass\plugins`
-- [ ] Configurar pattern de senhas
+- [Download](https://keepass.info/download.html)
+- Instalar plugins de `S:\Softwares\Keepass\plugins`
+- Configurar pattern de senhas
 
 ## Segurança
-- [ ] [Kaspersky](https://my.kaspersky.com/)
+- [Kaspersky](https://my.kaspersky.com/)
 
 ## 💾 Backup - SyncBack
-- [ ] [Download](https://www.2brightsparks.com/freeware/index.html)
-- [ ] Perfil em: `S:\Softwares\Backup\SyncBack\Perfil\`
+- [Download](https://www.2brightsparks.com/freeware/index.html)
+- Perfil em: `S:\Softwares\Backup\SyncBack\Perfil\`
 
 ## ☁️ Google Drive
-- [ ] Instalar e configurar
+- Instalar e configurar
 
 ## ⬇️ uTorrent
-- [ ] [Download](https://www.utorrent.com/intl/pt_br/desktop/)
-- [ ] Configurar diretórios
+- [Download](https://www.utorrent.com/intl/pt_br/desktop/)
+- Configurar diretórios
 
 ## 📚 Kindle
-- [ ] [Download](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
+- [Download](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
 
 ## 🖱️ Logitech Options
-- [ ] [Download](https://support.logi.com/hc/en-nz/articles/360025141274)
-- [ ] Drivers em: `S:\Softwares\Teclado e Mouse\Logitech`
+- [Download](https://support.logi.com/hc/en-nz/articles/360025141274)
+- Drivers em: `S:\Softwares\Teclado e Mouse\Logitech`
 
 ## 💽 EaseUS Partition Master
-- [ ] [Download](https://br.easeus.com/partition-manager/partition-master-free.html)
+- [Download](https://br.easeus.com/partition-manager/partition-master-free.html)
 
 ## 📷 Câmera
-- [ ] [Logitech C922](https://support.logi.com/hc/pt-br/articles/360024699934--Downloads-C922-Pro-Stream-Webcam)
-- [ ] [Logitech Capture](https://www.logitech.com/pt-br/software/capture.html)
+- [Logitech C922](https://support.logi.com/hc/pt-br/articles/360024699934--Downloads-C922-Pro-Stream-Webcam)
+- [Logitech Capture](https://www.logitech.com/pt-br/software/capture.html)
 
 ## 🔊 Áudio
-- [ ] [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
-- [ ] Arquivos em: `S:\Softwares\Audio\Equalizador`
+- [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
+- Arquivos em: `S:\Softwares\Audio\Equalizador`
 
 ## 🖨️ Impressora
-- [ ] HP Photosmart c4700 series
+- HP Photosmart c4700 series
   - [HP Smart](https://apps.microsoft.com/store/detail/hp-smart/9WZDNCRFHWLH)
   - Usuário: Vanessa
 
 � Optimização
-- [ ] [Otimizar Windows](http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html)
-- [ ] Configurar usuário como administrador
+- [Otimizar Windows](http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html)
+- Configurar usuário como administrador
   - [Guia](https://answers.microsoft.com/pt-br/windows/forum/all/colocar-um-usu%C3%A1rio-comum-como-adiministrador/9add7a79-3730-47d4-911c-2320d895850b)
 
 ## 💾 Backup de Imagem
-- [ ] Local: `R:\Backup`
-- [ ] Ferramentas:
+- Local: `R:\Backup`
+- Ferramentas:
   - EaseUS
   - Macrium Reflect
 
 ## 📊 Monitoramento
-- [ ] [CPU-Z](https://www.cpuid.com/)
-- [ ] [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
-- [ ] [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
+- [CPU-Z](https://www.cpuid.com/)
+- [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
+- [GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
 
 ## ⚙️ Configurações Avançadas
 ### 🖥️ Barra de Tarefas - Múltiplos Monitores
-- [ ] Configurar janelas individuais:
+- Configurar janelas individuais:
   1. Clique com o botão direito na barra de tarefas
   2. Selecione "Configurações da barra de tarefas"
   3. Role até "Comportamentos da barra de tarefas"
@@ -116,34 +119,34 @@
   5. Selecione "Somente na barra de tarefas onde a janela está aberta"
 
 ### 🎯 Gadgets
-- [ ] [Win10 Widgets](https://win10widgets.com/)
-- [ ] [Rainmeter](https://www.rainmeter.net/)
-- [ ] [Open Hardware Monitor](https://openhardwaremonitor.org/downloads/)
+- [Win10 Widgets](https://win10widgets.com/)
+- [Rainmeter](https://www.rainmeter.net/)
+- [Open Hardware Monitor](https://openhardwaremonitor.org/downloads/)
   - Instalar em: `C:\Program Files\OpenHardwareMonitor`
   - Adicionar à inicialização do Windows:
     - `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
     - `C:\Users\alvar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ### 🖥️ Monitor
-- [ ] [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
+- [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
 
 ### 💬 WhatsApp Desktop
-- [ ] [Download](https://www.whatsapp.com/features)
+- [Download](https://www.whatsapp.com/features)
 
 ### 🔄 VMware
-- [ ] Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
-- [ ] Atualizar para a versão 15.5.7
+- Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
+- Atualizar para a versão 15.5.7
 
 ## ⚙️ Serviços
-- [ ] Desativar serviços desnecessários em `services.msc`
-- [ ] Desativar todos os serviços de VM não utilizados
+- Desativar serviços desnecessários em `services.msc`
+- Desativar todos os serviços de VM não utilizados
 
 ## 🖨️ Configurações de Impressão
-- [ ] Configurar impressão em preto e branco:
+- Configurar impressão em preto e branco:
   - Impressoras → Configurações → Preferências de Impressão
 
 ## 🔊 Configurações de Áudio Bluetooth
-- [ ] Desativar modo "Hands Free"
+- Desativar modo "Hands Free"
   - Painel de Controle\Hardware e Sons\Dispositivos e Impressoras
   - Selecionar dispositivo → Serviços
   - Referências:
@@ -151,21 +154,21 @@
     - [Guia de solução](https://visser.io/2013/09/fix-for-poor-a2dp-quality-for-bluetooth-headphones-under-windows-8/)
 
 � Drivers e Softwares Adicionais
-- [ ] Impressora Epson L3250: `S:\Softwares\Impressoras\Epson\L3250`
-- [ ] Planos de Energia: `S:\Softwares\Planos de Energia`
-- [ ] AutoHotkey: `S:\Softwares\AutoHotkey`
+- Impressora Epson L3250: `S:\Softwares\Impressoras\Epson\L3250`
+- Planos de Energia: `S:\Softwares\Planos de Energia`
+- AutoHotkey: `S:\Softwares\AutoHotkey`
   - Script para movimentação de janelas
 
 ## ❌ Não Instalados
-- [ ] AnyDesk (desativar serviço em `services.msc`)
-- [ ] [IObit Driver Booster](https://www.iobit.com/pt/driver-booster.php)
+- AnyDesk (desativar serviço em `services.msc`)
+- [IObit Driver Booster](https://www.iobit.com/pt/driver-booster.php)
 
 ## 📌 Pendências
 ### 🎥 Vídeos e Gravações
-- [ ] Configurar diretório: `R:\Videos - Gravações`
-  - [ ] Deletar arquivos desnecessários do notebook
-  - [ ] Ajustar backup do notebook
+- Configurar diretório: `R:\Videos - Gravações`
+  - Deletar arquivos desnecessários do notebook
+  - Ajustar backup do notebook
 
 ### 💻 Notebook
-- [ ] Atualizar backups do SyncBack
-- [ ] Exportar configurações do MiniPC e importar no notebook
+- Atualizar backups do SyncBack
+- Exportar configurações do MiniPC e importar no notebook
