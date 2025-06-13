@@ -1,0 +1,52 @@
+@"
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+~$*
+
+# Logs
+*.log
+
+# Pastas do Windows
+$RECYCLE.BIN/
+System Volume Information/
+
+# Pastas de IDE
+.idea/
+
+# Arquivos de backup
+*.bak
+*.old
+*-old.*
+
+# Pastas específicas para ignorar
+/win10/
+/win11/
+/git/
+
+# Arquivos de instalação específicos
+Install PC - Dev.txt
+Install PC - MiniPC Ryzen9 - Old.txt
+
+# Manter apenas o arquivo principal
+# Install PC - MiniPC Ryzen9.txt
+
+# Arquivos grandes/bins
+*.exe
+*.msi
+*.dll
+*.zip
+*.rar
+*.7z
+*.iso
+*.img
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
+
+# Adiciona o .gitignore ao repositório
+git add .gitignore
+git commit -m "Atualiza .gitignore com pastas e arquivos locais"
