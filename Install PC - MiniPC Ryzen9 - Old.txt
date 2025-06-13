@@ -1,0 +1,231 @@
+***pendencias
+
+**Videos Gravações
+  agora o diretorio é:
+  R:\Videos - Gravações
+
+  falta:
+  deletar note
+  arrumar back note
+
+
+
+instalar o sw da HP e testar cartucho colorido
+
+**note
+atualizar backups do synback
+exportar as configs do minipc e importar no note
+
+
+****[MiniPC Ryzen9]********************************************************************************
+Validar Windows
+Windows Update
+Drivers
+
+**Configurações Windows
+deixar o tema escuro(iniciar --> temas)
+
+**Wifi
+https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html
+
+**AMD
+Baixe as atualizações de detecção automática e instalação para placas de vídeo Radeon™ e drivers de chipset Ryzen™ para Windows®
+https://www.amd.com/en/support
+
+**Diretório de usuários:
+Diretório de Arquivos do Usuário(caso nao de certo alterar no registro)
+https://support.microsoft.com/pt-br/topic/falha-de-opera%C3%A7%C3%A3o-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720
+rodar registro: S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg
+
+ 
+**WinRar
+https://www.win-rar.com/start.html?&L=9
+http://www.rarlab.com/download.htm
+
+**Notepad ++
+https://notepad-plus-plus.org/downloads/
+
+**Print - LigthShot
+https://app.prntscr.com/pt-br/help.html
+
+**BSpalyer
+http://bsplayer.com/bsplayer-portuguese/download-free.html
+
+**VCL Player
+https://www.videolan.org
+
+**Java
+https://www.oracle.com/java/technologies/downloads/
+https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+
+Office
+S:\Softwares\Office\Office 2013\Ale - Davó
+
+Firefox
+Google Crome
+Whats Web
+
+Acrobat Reader
+
+Spotify
+
+Personal Finances
+
+**KeePass
+  https://keepass.info/download.html
+
+  instalar plugins
+  S:\Softwares\Keepass\plugins
+
+  configurar pattern senhas(criei uma chave dentro do proprio app com o pattern)
+
+
+AntiVírus
+https://my.kaspersky.com/
+
+**Backup - SyncBack
+https://www.2brightsparks.com/freeware/index.html
+
+Perfil:
+S:\Softwares\Backup\SyncBack\Perfil\
+
+
+**Google Drive
+
+*µTorrent
+https://www.utorrent.com/intl/pt_br/desktop/
+setar diretórios
+
+*Kindle
+https://www.amazon.com.br/b?ie=UTF8&node=17877530011&fs=true&brr=1&rd=1
+
+
+**Logitech Teclado e Mouse
+https://support.logi.com/hc/en-nz/articles/360025141274
+S:\Softwares\Teclado e Mouse\Logitech
+
+**EaseUS Partition Master
+https://br.easeus.com/partition-manager/partition-master-free.html
+
+
+**Camera
+https://support.logi.com/hc/pt-br/articles/360024699934--Downloads-C922-Pro-Stream-Webcam
+
+**Logitech Capture
+https://www.logitech.com/pt-br/software/capture.html
+
+**Audio
+Equalizer APO 
+Peace Equalizer
+https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html
+
+S:\Softwares\Audio\Equalizador
+
+Impressora - Photosmart HPc4700 series
+https://apps.microsoft.com/store/detail/hp-smart/9WZDNCRFHWLH?hl=en-us&gl=US
+
+User Vanessa
+
+Otimizar Windows
+http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html
+
+
+**User Admin
+deixar usuário como admin
+https://answers.microsoft.com/pt-br/windows/forum/all/colocar-um-usu%C3%A1rio-comum-como-adiministrador/9add7a79-3730-47d4-911c-2320d895850b
+
+
+**Criar imagem de recuperação
+R:\Backup
+Windows
+Easeus
+Macrium Reflect
+
+CPU-Z
+https://www.cpuid.com/
+
+HWMonitor
+https://www.cpuid.com/softwares/hwmonitor.html
+
+GPU - Z
+https://www.techpowerup.com/download/techpowerup-gpu-z/
+
+**Barra de Tarefas - Vários Monitores
+ver imagem 
+S:\Softwares\Install PC
+
+**Gadgets
+Baixar no link abaixo
+https://win10widgets.com/
+para este gadget funcionar precisa instalar o rainmeter, no link acima tem 3 formas de instalar, traduzir o site e ler as instruções
+
+https://www.rainmeter.net/
+
+
+https://openhardwaremonitor.org/downloads/
+Deixar o exec no local C:\Program Files\OpenHardwareMonitor
+no programa podemos deixar apenas a opção da temperatura do cpu como gadget, basta clicar com o botao direito
+https://www.technipages.com/how-to-display-cpu-temperature-on-windows-desktop
+
+incluir na inializacao do windows:
+%AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+C:\Users\alvar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+**Monitor
+https://my.aoc.com/index/explore/route/softwares
+i-Menu
+
+Whatsapp
+https://www.whatsapp.com/features
+
+**VmWare
+Instalei esta versao:
+S:\Softwares\VM Ware\Instalador\VMware workstation 2015  with key(Techhub Pk with Mudassar)
+
+em seguida atualizei para a 15.5.7 e utilizei o serial da pasta acima
+
+**services.msc
+desligar todos os softwares desnecessários
+desliguei tudo de VM
+
+**Impressão Preto e Branco
+Impressoras --> Configurações--> Preferencias de Impressão
+
+**Som Bluetoth
+Desligar o hands free
+Painel de Controle\Hardware e Sons\Dispositivos e Impressoras
+Selecionar o Dispositivo
+Serviços
+https://answers.microsoft.com/en-us/windows/forum/all/fix-for-bluetooth-headphones-or-speaker-using/7023c43b-c001-42e9-9ec9-95a8f96a4b4c
+https://visser.io/2013/09/fix-for-poor-a2dp-quality-for-bluetooth-headphones-under-windows-8/
+
+
+**Txt
+https://www.sublimetext.com/
+configurar a variavel de ambiente
+
+C:\Users\alvar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alvar\AppData\Roaming\npm;C:\Program Files\Sublime Text 3;
+criar um novo exec com o nome sublime
+
+impressora
+S:\Softwares\Impressoras\Epson\L3250
+
+
+Planos de Energia
+S:\Softwares\Planos de Energia
+
+
+autohotkey
+S:\Softwares\AutoHotkey
+app com script para movimentar janelas
+
+****[MiniPC Ryzen9]********************************************************************************
+
+**Não instalados**
+AnyDesk
+desligar o servico no services.msc
+
+iobit - Drivers
+https://www.iobit.com/pt/driver-booster.php
+
+
