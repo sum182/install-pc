@@ -11,6 +11,9 @@
 - [Sublime Text](https://www.sublimetext.com/)
   - Configurar a variável de ambiente: `C:\Program Files\Sublime Text`
   - Criar um novo exec com o nome `sublime`
+- Na pasta de inicialização, crie um novo atalho
+- Cole o caminho:  
+   `"C:\Program Files\Sublime Text\sublime_text.exe"`
 ---
 
 ## 🪟 Tema
@@ -49,26 +52,17 @@
 - 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
 - Personal Finances
 
+## 📦 Aplicativos Opcionais
+- 💽 [EaseUS Partition Master](https://br.easeus.com/partition-manager/partition-master-free.html)
+- 🖥️ [AOC i-Menu](https://my.aoc.com/index/explore/route/softwares)
+- 🔄 VMware Workstation
+  - Instalar versão de `S:\Softwares\VM Ware\Instalador\VMware workstation 2015 with key`
+  - Atualizar para a versão 15.5.7
+- 🖥️ [AnyDesk](https://anydesk.com/pt/downloads/windows)
+  - Após instalação, desativar serviço em `services.msc`
+
 ---
 ## ⚡ Inicialização Automática de Aplicativos
-
-### Configurar Chrome e Sublime Text para iniciar automaticamente:
-
-#### Chrome
-1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
-2. Clique com o botão direito > Novo > Atalho
-3. Cole o caminho:  
-   `"C:\Program Files\Google\Chrome\Application\chrome.exe"`
-4. Nomeie como "Google Chrome"
-
-#### Sublime Text
-1. Na mesma pasta de inicialização, crie um novo atalho
-2. Cole o caminho:  
-   `"C:\Program Files\Sublime Text\sublime_text.exe"`
-3. Nomeie como "Sublime Text"
-
-### Métodos Gerais:
-
 #### Método 1: Pasta de Inicialização (Recomendado)
 1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
 2. Crie atalhos dos programas desejados nesta pasta
@@ -133,9 +127,6 @@
   - Configuração de iluminação e enquadramento
   - Perfis de streaming
 
-
-## 💽 EaseUS Partition Master
-- [Download](https://br.easeus.com/partition-manager/partition-master-free.html)
 
 ## 🔊 Áudio
 - [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
@@ -227,9 +218,6 @@
 - Planos de Energia: `S:\Softwares\Planos de Energia`
 
 
-## ❌ Não Instalados
-- AnyDesk (desativar serviço em `services.msc`)
-- [IObit Driver Booster](https://www.iobit.com/pt/driver-booster.php)
 
 ## 📌 Pendências
 ### 🎥 Vídeos e Gravações
