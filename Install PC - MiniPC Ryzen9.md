@@ -3,18 +3,18 @@
 ## ⚙️ Configurações Iniciais
 - Validar Windows
 - Windows Update
-- Drivers
-
-## 🪟 Configurações Windows
-- Deixar o tema escuro (Iniciar → Temas)
 
 ## 🌍 Chrome
-  - [Google Chrome](https://www.google.com/chrome/)
- 
-## 📝 Txt
+- [Google Chrome](https://www.google.com/chrome/)
+
+## 📝 Arquivos Texto
 - [Sublime Text](https://www.sublimetext.com/)
   - Configurar a variável de ambiente: `C:\Program Files\Sublime Text`
   - Criar um novo exec com o nome `sublime`
+---
+
+## 🪟 Tema
+- Deixar o tema escuro (Iniciar → Temas)
 
 ## 📶 WiFi e Bluetooth
 - Drivers Intel Wi-Fi 6E AX210
@@ -34,12 +34,14 @@
   - [Falha na operação para alterar a localização de uma pasta pessoal no Windows](https://support.microsoft.com/pt-br/topic/falha-de-operação-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720)
     - Alterar as chaves HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
     - Rodar registro: `S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg`
-  
-## 🗜️ Aplicativos
+---
+
+## 🗜️ Aplicativos 
 - 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
 - 📸 [LightShot](https://app.prntscr.com/pt-br/help.html)
 - 📺 [VLC Player](https://www.videolan.org)
 - ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
+- 📚 [Kindle](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
 - 🌐 Browsers
   - [Brave](https://brave.com/)
   - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
@@ -47,7 +49,7 @@
 - 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
 - Personal Finances
 
-
+---
 ## ⚡ Inicialização Automática de Aplicativos
 
 ### Configurar Chrome e Sublime Text para iniciar automaticamente:
@@ -100,16 +102,14 @@
   4. Mover o atalho para a pasta de inicialização que abrir
   5. Reiniciar o computador para testar
 
-## 🛡️ Segurança
-- [Kaspersky](https://my.kaspersky.com/)
 
 ## 💾 Backup - SyncBack
 - [Download](https://www.2brightsparks.com/freeware/index.html)
 - Perfil em: `S:\Softwares\Backup\SyncBack\Perfil\`
 
 ## ☁️ Google Drive
-- Instalar e configurar
-
+- [Download](https://www.google.com/drive/download/)
+- Configurar sincronização de pastas
 
 
 ## 🖱️ Logitech
@@ -133,8 +133,6 @@
   - Configuração de iluminação e enquadramento
   - Perfis de streaming
 
-## 📚 Kindle
-- [Download](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
 
 ## 💽 EaseUS Partition Master
 - [Download](https://br.easeus.com/partition-manager/partition-master-free.html)
@@ -143,12 +141,31 @@
 - [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
 - Arquivos em: `S:\Softwares\Audio\Equalizador`
 
-## 🖨️ Impressora
+## 🖨️ Impressora Epson L3250
+- **Windows 11**  
+  [Download](https://epson.com.br/Suporte/Impressoras/Impressoras-multifuncionais/Epson-L/Epson-L3250/s/SPT_C11CJ67301?review-filter=Windows+11)
+- **Windows 10**  
+  [Download](https://epson.com.br/Suporte/Impressoras/Impressoras-multifuncionais/Epson-L/Epson-L3250/s/SPT_C11CJ67301?review-filter=Windows+10+64-bit)
+- Procedimentos de instalação 
+  - `S:\Softwares\Impressoras\Epson\L3250`
+
+#### Outros Downloads
+- [Epson Smart Panel](https://epson.com.br/Suporte/Impressoras/Impressoras-Multifuncionais/Epson-L3250/s/SPT_C11CJ26401#drivers)
+- [Todos os Drivers e Softwares](https://epson.com.br/Suporte/Impressoras/Impressoras-Multifuncionais/Epson-L3250/s/SPT_C11CJ26401)
+
+### 🔧 Solução de Problemas
+- Limpeza de bicos: Painel da impressora > Manutenção > Limpeza de bicos
+- Alinhamento de cabeçote: Painel da impressora > Manutenção > Alinhamento de cabeçote
+- [Guia de Solução de Problemas](https://epson.com.br/Suporte/Impressoras/Impressoras-Multifuncionais/Epson-L3250/s/SPT_C11CJ26401#faq)
+
+
+---
 
 � Optimização
 - [Otimizar Windows](http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html)
 - Configurar usuário como administrador
   - [Guia](https://answers.microsoft.com/pt-br/windows/forum/all/colocar-um-usu%C3%A1rio-comum-como-adiministrador/9add7a79-3730-47d4-911c-2320d895850b)
+
 
 ## 💾 Backup de Imagem
 - Local: `R:\Backup`
