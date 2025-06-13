@@ -13,21 +13,23 @@
   - Configurar a variável de ambiente: `C:\Program Files\Sublime Text`
   - Criar um novo exec com o nome `sublime`
 
-
-
-## 📶 WiFi
+## 📶 WiFi e Bluetooth
 - [ ] Drivers Intel Wi-Fi 6E AX210
   - Local: `S:\Softwares\MiniPC\S500\drivers\Intel - Wi-Fi 6E AX210`
   - [Download](https://www.intel.com.br/content/www/br/pt/products/sku/204836/intel-wifi-6e-ax210-gig/downloads.html)
 
+## 🛡️ Segurança
+- [ ] [Kaspersky](https://my.kaspersky.com/)
+
 ## 🔴 AMD
 - [ ] Baixar atualizações de detecção automática para Radeon™ e Ryzen™
-  - [Site de suporte](https://www.amd.com/en/support)
+  - [Download](https://www.amd.com/en/support)
 
 ## 📂 Diretório de Usuários
-- [ ] Configurar diretório de arquivos do usuário
-  - [Guia de suporte](https://support.microsoft.com/pt-br/topic/falha-de-operação-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720)
-  - Rodar registro: `S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg`
+- [ ] Configurar diretório de arquivos do usuário, exemplo D:\Users 
+- [ ] Erros na alteração
+  - [Falha na operação para alterar a localização de uma pasta pessoal no Windows](https://support.microsoft.com/pt-br/topic/falha-de-operação-para-alterar-um-local-de-pasta-pessoal-no-windows-ffb95139-6dbb-821d-27ec-62c9aaccd720)
+    - Rodar registro: `S:\Softwares\MiniPC\S500\Diretório de Usuários - D.reg`
 
 ## 🗜️ Aplicativos
 - [ ] 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
