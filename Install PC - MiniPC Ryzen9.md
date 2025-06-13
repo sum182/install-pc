@@ -8,7 +8,7 @@
 ## 🪟 Configurações Windows
 - Deixar o tema escuro (Iniciar → Temas)
 
-## 🌐 Chrome
+## 🌍 Chrome
   - [Google Chrome](https://www.google.com/chrome/)
  
 ## 📝 Txt
@@ -37,7 +37,6 @@
   
 ## 🗜️ Aplicativos
 - 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
-- ⌨️ [Logitech MK540](https://support.logi.com/hc/en-za/articles/360024850313--Downloads-MK540-ADVANCED-Wireless-Keyboard-and-Mouse-Combo)
 - 📸 [LightShot](https://app.prntscr.com/pt-br/help.html)
 - 📺 [VLC Player](https://www.videolan.org)
 - ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
@@ -89,6 +88,7 @@
 - [Download](https://keepass.info/download.html)
 - Instalar plugins de `S:\Softwares\Keepass\plugins`
 - Configurar pattern de senhas
+  - Basta abrir o grupo keepass, copiar o pattern e salvar como "Password Generator Pattern"
 
 ## 🤖 AutoHotkey
 - [Download](https://www.autohotkey.com/)
@@ -110,32 +110,40 @@
 ## ☁️ Google Drive
 - Instalar e configurar
 
-## ⬇️ uTorrent
-- [Download](https://www.utorrent.com/intl/pt_br/desktop/)
-- Configurar diretórios
+
+
+## 🖱️ Logitech
+
+### 🛠️ Softwares de Gerenciamento
+### 🖱️ Logitech Options+
+   - Suporta a maioria dos teclados e mouses atuais
+   - Interface moderna e intuitiva
+   - [Download](https://www.logitech.com/software/options-plus.html)
+
+
+### ⌨️ Teclado e Mouse(Caso precisar de algum ajuste)
+- [Logitech MK540](https://support.logi.com/hc/en-za/articles/360024850313--Downloads-MK540-ADVANCED-Wireless-Keyboard-and-Mouse-Combo)
+  - Guia de instalação e configuração
+  - Configuração de teclas especiais
+  - Gerenciamento de perfis
+
+### 📹 Câmera
+- [Logitech C922](https://support.logi.com/hc/pt-br/articles/360024699934--Downloads-C922-Pro-Stream-Webcam)
+- [Logitech Capture](https://www.logitech.com/pt-br/software/capture.html)
+  - Configuração de iluminação e enquadramento
+  - Perfis de streaming
 
 ## 📚 Kindle
 - [Download](https://www.amazon.com.br/b?ie=UTF8&node=17877530011&brr=1&rd=1)
 
-## 🖱️ Logitech Options
-- [Download](https://support.logi.com/hc/en-nz/articles/360025141274)
-- Drivers em: `S:\Softwares\Teclado e Mouse\Logitech`
-
 ## 💽 EaseUS Partition Master
 - [Download](https://br.easeus.com/partition-manager/partition-master-free.html)
-
-## 📷 Câmera
-- [Logitech C922](https://support.logi.com/hc/pt-br/articles/360024699934--Downloads-C922-Pro-Stream-Webcam)
-- [Logitech Capture](https://www.logitech.com/pt-br/software/capture.html)
 
 ## 🔊 Áudio
 - [Equalizer APO + Peace Equalizer](https://www.softdownload.com.br/equalize-audio-computador-equalizer-apo.html)
 - Arquivos em: `S:\Softwares\Audio\Equalizador`
 
 ## 🖨️ Impressora
-- HP Photosmart c4700 series
-  - [HP Smart](https://apps.microsoft.com/store/detail/hp-smart/9WZDNCRFHWLH)
-  - Usuário: Vanessa
 
 � Optimização
 - [Otimizar Windows](http://www.softdownload.com.br/10-dicas-deixar-windows-10-rapido.html)
@@ -200,8 +208,7 @@
 � Drivers e Softwares Adicionais
 - Impressora Epson L3250: `S:\Softwares\Impressoras\Epson\L3250`
 - Planos de Energia: `S:\Softwares\Planos de Energia`
-- AutoHotkey: `S:\Softwares\AutoHotkey`
-  - Script para movimentação de janelas
+
 
 ## ❌ Não Instalados
 - AnyDesk (desativar serviço em `services.msc`)
