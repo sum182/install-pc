@@ -1,4 +1,4 @@
-﻿# 🖥️ MiniPC Ryzen9
+# 🖥️ MiniPC Ryzen9
 
 ## ⚙️ Configurações Iniciais
 - Validar Windows
@@ -8,6 +8,9 @@
 ## 🪟 Configurações Windows
 - Deixar o tema escuro (Iniciar → Temas)
 
+## 🌐 Chrome
+  - [Google Chrome](https://www.google.com/chrome/)
+ 
 ## 📝 Txt
 - [Sublime Text](https://www.sublimetext.com/)
   - Configurar a variável de ambiente: `C:\Program Files\Sublime Text`
@@ -34,29 +37,70 @@
   
 ## 🗜️ Aplicativos
 - 🗜️ [WinRAR](https://www.win-rar.com/start.html?&L=9)
-- 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
-  - Conta: alv.storage@outlook.com
 - ⌨️ [Logitech MK540](https://support.logi.com/hc/en-za/articles/360024850313--Downloads-MK540-ADVANCED-Wireless-Keyboard-and-Mouse-Combo)
 - 📸 [LightShot](https://app.prntscr.com/pt-br/help.html)
-- 🎬 [BSPlayer](http://bsplayer.com/bsplayer-portuguese/download-free.html)
 - 📺 [VLC Player](https://www.videolan.org)
 - ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
-- 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
-  - Conta: alv.storage@outlook.com
-- 🌐 [Navegadores](https://www.google.com/chrome/)
-  - Firefox
-  - Google Chrome
-  - WhatsApp Web
+- 🌐 Browsers
+  - [Brave](https://brave.com/)
+  - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
 - 📄 [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html)
 - 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
 - Personal Finances
+
+
+## ⚡ Inicialização Automática de Aplicativos
+
+### Configurar Chrome e Sublime Text para iniciar automaticamente:
+
+#### Chrome
+1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
+2. Clique com o botão direito > Novo > Atalho
+3. Cole o caminho:  
+   `"C:\Program Files\Google\Chrome\Application\chrome.exe"`
+4. Nomeie como "Google Chrome"
+
+#### Sublime Text
+1. Na mesma pasta de inicialização, crie um novo atalho
+2. Cole o caminho:  
+   `"C:\Program Files\Sublime Text\sublime_text.exe"`
+3. Nomeie como "Sublime Text"
+
+### Métodos Gerais:
+
+#### Método 1: Pasta de Inicialização (Recomendado)
+1. Pressione `Win + R`, digite `shell:startup` e pressione Enter
+2. Crie atalhos dos programas desejados nesta pasta
+3. Os programas serão iniciados quando o Windows iniciar
+
+#### Método 2: Gerenciador de Tarefas
+1. Pressione `Ctrl + Shift + Esc` para abrir o Gerenciador de Tarefas
+2. Vá para a aba "Inicializar"
+3. Clique com o botão direito no programa e selecione "Ativar"
+
+> 💡 Dica: Use o método 1 para programas como Chrome e Sublime Text, e o método 2 para programas que precisam de privilégios de administrador.
+
+
+
+## 📊 [Office 365 Family](https://account.microsoft.com/services/microsoft365/details?ocid=PROD_Office_CONS_Growth_RET_ClientManageAccount&clid=pt-BR&client=excel.exe&cv=16&p1=1&isredacted=0&refd=account.microsoft.com)
+  - Conta: alv.storage@outlook.com
 
 ## 🔑 KeePass
 - [Download](https://keepass.info/download.html)
 - Instalar plugins de `S:\Softwares\Keepass\plugins`
 - Configurar pattern de senhas
 
-## Segurança
+## 🤖 AutoHotkey
+- [Download](https://www.autohotkey.com/)
+- Local dos scripts: `S:\Softwares\AutoHotkey`
+- Configuração de inicialização automática:
+  1. Instalar o AutoHotkey
+  2. Criar atalho do script `.ahk` desejado
+  3. Pressionar `Win + R`, digitar `shell:startup` e Enter
+  4. Mover o atalho para a pasta de inicialização que abrir
+  5. Reiniciar o computador para testar
+
+## 🛡️ Segurança
 - [Kaspersky](https://my.kaspersky.com/)
 
 ## 💾 Backup - SyncBack
