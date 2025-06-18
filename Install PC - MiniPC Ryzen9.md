@@ -55,6 +55,8 @@
   - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
 - 📄 [Adobe Acrobat Reader](https://www.adobe.com/br/acrobat/pdf-reader.html)
 - 🎵 [Spotify](https://www.spotify.com/br-pt/download/windows/)
+- 🖱️ [Redragon](https://www.redragon.com.br/downloads)
+  - Local: `S:\Softwares\Teclado e Mouse\Redragon`
 - Personal Finances
 
 
